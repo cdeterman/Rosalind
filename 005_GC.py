@@ -9,7 +9,7 @@ URL: http://rosalind.info/problems/gc
 
 from Bio.SeqUtils import GC
 
-f = open("C:/Users/Chaz/python_code/Rosalind/data/rosalind_gc.txt", 'r')
+f = open("data/rosalind_gc.txt", 'r')
 raw_data = f.readlines()
 f.close()
 
@@ -36,7 +36,7 @@ for s_id, s in samples.iteritems(): # dict.iteritems - iterate both keys and val
 gc_id = max(gc_samples, key = gc_samples.get)
 gc_value = max(gc_samples.values())
 
-o = open('C:/Users/Chaz/python_code/Rosalind/output/005_GC.txt', 'w')
+o = open('output/005_GC.txt', 'w')
 o.writelines('\n'.join([gc_id, str(gc_value)]))
 o.close()
 
