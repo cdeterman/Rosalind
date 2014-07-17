@@ -7,7 +7,7 @@ Rosalind #: 006
 URL: http://rosalind.info/problems/hamm
 '''
 
-f = open("C:/Users/Chaz/python_code/Rosalind/data/rosalind_hamm.txt", 'r')
+f = open("data/rosalind_hamm.txt", 'r')
 raw_data = f.readlines()
 f.close()
 
