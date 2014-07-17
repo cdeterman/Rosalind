@@ -7,7 +7,7 @@ Rosalind #: 001
 URL: http://rosalind.info/problems/dna
 '''
 
-f = open("C:/Users/Chaz/python_code/Rosalind/data/rosalind_dna.txt", 'r')
+f = open("data/rosalind_dna.txt", 'r')
 raw_seq = f.readline().rstrip()
 f.close()
 
