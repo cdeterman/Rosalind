@@ -12,7 +12,7 @@ from Bio import motifs
 from Bio.Seq import Seq
 import Bio.Alphabet
 
-f = open("C:/Users/Chaz/python_code/Rosalind/data/rosalind_cons.txt", 'r')
+f = open("data/rosalind_cons.txt", 'r')
 raw_data = f.readlines()
 f.close()
 
@@ -42,7 +42,7 @@ m = motifs.create(instances)
 profile = m.counts
 consensus = m.consensus
 
-o = open("C:/Users/Chaz/python_code/Rosalind/output/010_CONS.txt", 'w')
+o = open("output/010_CONS.txt", 'w')
 print >> o, consensus
 for key, value in profile.iteritems():
     # must convert integers to str for concatenating
