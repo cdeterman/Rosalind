@@ -4,7 +4,7 @@ My solution to Rosalind Bioinformatics Problem 014
 Title: Finding a Shared Motif
 Rosalind ID: lcsm
 Rosalind #: 014
-URL: http://rosalind.info/problems/lcms
+URL: http://rosalind.info/problems/lcsm
 '''
 
 '''First and foremost, I believe these days a problem such as this
