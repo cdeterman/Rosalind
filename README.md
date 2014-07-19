@@ -31,3 +31,5 @@ These are my current solutions to the Rosalind Bioinformatics Problems.  I am ve
 	* Language: Python
 * __Finding a Shared Motif__
 	* Language: Python
+* __Independent Alleles__
+	* Language: Python
