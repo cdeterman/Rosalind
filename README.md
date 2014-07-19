@@ -2,7 +2,7 @@
 
 These are my current solutions to the Rosalind Bioinformatics Problems.  I am very fond of the BioPython toolset and try to apply it where appropriate.  As such, implementation of many of these solutions require its' installation.  I would like to create solutions with other programming languages but primarily these will consist of only python solutions.
 
-# Currently Solved: 14
+# Currently Solved: 15
 * __Counting DNA Nucleotides__
 	* Language: Python
 * __Transcribing DNA into RNA__
