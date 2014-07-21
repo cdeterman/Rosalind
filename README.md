@@ -2,6 +2,7 @@
 
 These are my current solutions to the Rosalind Bioinformatics Problems.  I am very fond of the BioPython toolset and try to apply it where appropriate.  As such, implementation of many of these solutions require its' installation.  I would like to create solutions with other programming languages but primarily these will consist of only python solutions.
 
+# Bioinformatics Stronghold
 # Currently Solved: 16
 * __Counting DNA Nucleotides__
 	* Language: Python
@@ -34,4 +35,9 @@ These are my current solutions to the Rosalind Bioinformatics Problems.  I am ve
 * __Independent Alleles__
 	* Language: Python
 * __Finding a Protein Motif__
+	* Language: Python
+
+# Algorithmic Heights
+# Currently Solved: 1
+* __Fibonacci Numbers__
 	* Language: Python
