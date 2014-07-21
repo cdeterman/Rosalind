@@ -1,9 +1,9 @@
-# '"Rosalind Bioinformatics Solutions"'
+# '"Rosalind Solutions"'
 
-These are my current solutions to the Rosalind Bioinformatics Problems.  I am very fond of the BioPython toolset and try to apply it where appropriate.  As such, implementation of many of these solutions require its' installation.  I would like to create solutions with other programming languages but primarily these will consist of only python solutions.
+These are my current solutions to the Rosalind Problems.  I am very fond of the Biopython toolset and try to apply it where appropriate.  As such, implementation of many of these solutions require its' installation.  I have tried to annotate my code and notify where installations may be necessary.  I generally work with Python 2.7 however I will work towards Python 3.X functionality.  I would like to create solutions with other programming languages but primarily these will consist of only python solutions.
 
 # Bioinformatics Stronghold
-# Currently Solved: 16
+# Currently Solved: 17
 * __Counting DNA Nucleotides__
 	* Language: Python
 * __Transcribing DNA into RNA__
@@ -35,6 +35,8 @@ These are my current solutions to the Rosalind Bioinformatics Problems.  I am ve
 * __Independent Alleles__
 	* Language: Python
 * __Finding a Protein Motif__
+	* Language: Python
+* __Inferring mRNA from Protein__
 	* Language: Python
 
 # Algorithmic Heights
