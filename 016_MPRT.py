@@ -1,8 +1,18 @@
-
-
 '''
-    I neglected to realize that the question doesn't specify non-overlapping
-    motifs.  As such, see note by the regex code.
+My solution to Rosalind Bioinformatics Problem 016
+
+Title: Finding a Protein Motif
+Rosalind ID: mprt
+Rosalind #: 016
+URL: http://rosalind.info/problems/mprt
+
+The problem was to find all the N-glycosylation motifs in the provided proteins.
+This provided an excellent opportunity for regex.  The strategy was to
+create the regex object and itertively search each protein extracted
+from the uniprot fasta file.
+
+FYI - I neglected to realize that the question doesn't specify non-overlapping
+motifs.  As such, see note by the regex code.
 '''
 
 # allows use of Python3.X print functionality
