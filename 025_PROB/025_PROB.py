@@ -1,16 +1,34 @@
+'''
+My solution to Rosalind Bioinformatics Problem 025
 
-my_seq = 'ACGATACAA'
-gc_array = [0.129,0.287,0.423,0.476,0.641,0.742,0.783]
+Title: Introduction to Random Strings
+Rosalind ID: PROB
+Rosalind #: 025
+URL: http://rosalind.info/problems/prob
 
-prob = 1
-for i in gc_array[0]:
-    prob_gc = gc_array[i]/2
-    prob_at = (1-gc_array[i])/2
-    print prob_gc
-    '''
-    if my_seq[i] == 'A' or my_seq[i] == 'T'
-        prob *= prob_at
-    else:
-        prob *= prob_gc
-    '''
+Goal to return probability that random sequence will exactly match the
+provided sequence given the GC content.
+'''
 
+from math import log10
+
+f = open("C:/Users/Chaz/Rosalind/data/rosalind_prob.txt")
+my_seq = f.readline().rstrip()
+gc_array = map(float, f.readline().rstrip().split())
+f.close()
+
+output_handle = open("C:/Users/Chaz/Rosalind/output/025_PROB.txt", 'w')
+for gc in gc_array:
+    prob_gc = gc/2
+    prob_at = (1-gc)/2
+    #print prob_gc
+
+    prob = 1
+    for nucleotide in my_seq:
+        if nucleotide == 'A' or nucleotide == 'T':
+            prob *= prob_at
+        else:
+            prob *= prob_gc
+    print >> output_handle, log10(prob),
+
+output_handle.close()
