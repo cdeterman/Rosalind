@@ -5,15 +5,15 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 # Bioinformatics Stronghold
 # Currently Solved: 17
 * __Counting DNA Nucleotides__
-	* Language: Python
+	* Language: Python,R
 * __Transcribing DNA into RNA__
-	* Language: Python
+	* Language: Python,R
 * __Complementing a Strand of DNA__	
-	* Language: Python
+	* Language: Python,R
 * __Rabbits and Recurrence Relations__
-	* Language: Python
+	* Language: Python,R
 * __Computing GC Content__
-	* Language: Python
+	* Language: Python,R
 * __Counting Point Mutations__
 	* Language: Python
 * __Mendel's First Law__
