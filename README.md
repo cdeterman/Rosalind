@@ -46,6 +46,7 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 	* Language: Python
 * __Introduction to Random Strings__
 	* Language: Python
+
 # Algorithmic Heights
 # Currently Solved: 3
 * __Fibonacci Numbers__
