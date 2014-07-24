@@ -16,6 +16,7 @@ from Bio.Data import CodonTable
 
 f = open("data/rosalind_orf.txt", 'r')
 record = SeqIO.read(f, "fasta")
+f.close()
 
 # Get stop codons
 standard_table = CodonTable.unambiguous_dna_by_name["Standard"]

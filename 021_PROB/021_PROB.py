@@ -1,9 +1,9 @@
 '''
-My solution to Rosalind Bioinformatics Problem 025
+My solution to Rosalind Bioinformatics Problem 021
 
 Title: Introduction to Random Strings
 Rosalind ID: PROB
-Rosalind #: 025
+Rosalind #: 021
 URL: http://rosalind.info/problems/prob
 
 Goal to return probability that random sequence will exactly match the
