@@ -11,7 +11,7 @@ table.
 '''
 
 # Create mass dictionary from mass table file
-f = open("C:/Users/Chaz/Rosalind/data/protein_mass_table.txt", 'r')
+f = open("data/protein_mass_table.txt", 'r')
 aa_mass_dict = {}
 for line in f.readlines():
     data = line.rstrip().split()
@@ -19,7 +19,7 @@ for line in f.readlines():
 f.close()
 
 # open sequence
-f = open("C:/Users/Chaz/Rosalind/data/rosalind_prtm.txt", 'r')
+f = open("data/rosalind_prtm.txt", 'r')
 protein = f.readline().rstrip()
 f.close()
 

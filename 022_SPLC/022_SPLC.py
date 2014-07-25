@@ -13,7 +13,7 @@ introns.
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-f = open("C:/Users/Chaz/Rosalind/data/rosalind_splc.txt", 'r')
+f = open("data/rosalind_splc.txt", 'r')
 
 # simple parsing to have sequences as strings for subsequent splicing
 dna = ''
@@ -31,7 +31,7 @@ for intron in introns:
     if intron in dna: # if intron present, remove from dna string
         dna = dna.replace(intron, "")
 
-o = open("C:/Users/Chaz/Rosalind/output/023_SPLC.txt", 'w')
+o = open("output/023_SPLC.txt", 'w')
 # convert to Seq object and translate to protein
 print >> o, Seq(dna).translate(to_stop=True)
 o.close()

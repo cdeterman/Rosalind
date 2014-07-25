@@ -12,12 +12,12 @@ provided sequence given the GC content.
 
 from math import log10
 
-f = open("C:/Users/Chaz/Rosalind/data/rosalind_prob.txt")
+f = open("data/rosalind_prob.txt")
 my_seq = f.readline().rstrip()
 gc_array = map(float, f.readline().rstrip().split())
 f.close()
 
-output_handle = open("C:/Users/Chaz/Rosalind/output/025_PROB.txt", 'w')
+output_handle = open("output/025_PROB.txt", 'w')
 for gc in gc_array:
     prob_gc = gc/2
     prob_at = (1-gc)/2
