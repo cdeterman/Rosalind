@@ -16,7 +16,7 @@ from math import factorial
 n = 6
 seq = range(1, n+1)
 
-o = open("C:/Users/Chaz/Rosalind/output/019_PERM.txt", 'w')
+o = open("output/019_PERM.txt", 'w')
 
 # how many possible combinations
 print >> o, factorial(n)

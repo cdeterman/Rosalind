@@ -12,7 +12,7 @@ lexicographical order of the sequence.
 
 from itertools import product
 
-f = open("C:/Users/Chaz/Rosalind/data/rosalind_lexf.txt", 'r')
+f = open("data/rosalind_lexf.txt", 'r')
 alphabet = list(f.readline().rstrip().split())
 n = int(f.readline().rstrip())
 f.close()
@@ -21,7 +21,7 @@ f.close()
     Also sorting is unneccessary because the inner product
     produces the order of the sequence provided
 '''
-outhandle = open("C:/Users/Chaz/Rosalind/output/024_LEXF.txt", 'w')
-for perm in product(alphabet, repeat=n):
+outhandle = open("output/024_LEXF.txt", 'w')
+for perm in product(alphabet, repeat=n): #note, repeat must be specifically stated
     print >> outhandle, "".join(perm)
 outhandle.close()
