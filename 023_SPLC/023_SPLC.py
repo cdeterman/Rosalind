@@ -1,3 +1,15 @@
+'''
+My solution to Rosalind Bioinformatics Problem 023
+
+Title: RNA Splicing
+Rosalind ID: SPLC
+Rosalind #: 023
+URL: http://rosalind.info/problems/splc
+
+Goal to return translated protein of a dna strand after removing a list of
+introns.
+'''
+
 from Bio import SeqIO
 from Bio.Seq import Seq
 
