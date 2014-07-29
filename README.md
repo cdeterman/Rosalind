@@ -17,7 +17,7 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 * __Counting Point Mutations__
 	* Language: Python, R
 * __Mendel's First Law__
-	* Language: Python
+	* Language: Python, R
 * __Translating RNA into Protein__
 	* Language: Python
 * __Finding a Motif in DNA__
