@@ -15,7 +15,7 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 * __Computing GC Content__
 	* Language: Python, R
 * __Counting Point Mutations__
-	* Language: Python
+	* Language: Python, R
 * __Mendel's First Law__
 	* Language: Python
 * __Translating RNA into Protein__
