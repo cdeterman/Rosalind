@@ -19,7 +19,7 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 * __Mendel's First Law__
 	* Language: Python, R
 * __Translating RNA into Protein__
-	* Language: Python
+	* Language: Python, R
 * __Finding a Motif in DNA__
 	* Language: Python
 * __Consensus and Profile__
