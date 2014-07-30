@@ -3,7 +3,7 @@
 These are my current solutions to the Rosalind Problems.  I am very fond of the Biopython toolset and try to apply it where appropriate.  As such, implementation of many of these solutions require its' installation.  I have tried to annotate my code and notify where installations may be necessary.  I generally work with Python 2.7 however I will work towards Python 3.X functionality.  I would like to create solutions with other programming languages but primarily these will consist of only python solutions.
 
 # Bioinformatics Stronghold
-# Currently Solved: 28 
+# Currently Solved: 29
 * __Counting DNA Nucleotides__
 	* Language: Python, R
 * __Transcribing DNA into RNA__
@@ -59,6 +59,8 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 * __Perfect Matchings and RNA Secondary Structures__
 	* Language: Python
 * __Partial Permutations__
+	* Language: Python
+* __Enumerating Oriented Gene Orders__
 	* Language: Python
 
 # Algorithmic Heights
