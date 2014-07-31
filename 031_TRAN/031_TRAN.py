@@ -1,3 +1,15 @@
+'''
+My solution to Rosalind Bioinformatics Problem 031
+
+Title: Transitions and Transversions
+Rosalind ID: TRAN
+Rosalind #: 031
+URL: http://rosalind.info/problems/tran
+
+Goal - Provide the ratio of transitions to transversions for two provided
+sequences.
+'''
+
 from Bio import SeqIO
 
 f = open("~/Rosalind/data/rosalind_tran.txt", 'r')
