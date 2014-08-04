@@ -1,0 +1,12 @@
+
+# Binomial Combination
+def nCr(n,r):
+    return factorial(n) / (factorial(r) * factorial(n-r))
+
+# Narayana Numbers
+def narayana(n, k):
+    return (1/float(n))*nCr(n, k)*nCr(n, (k-1))
+
+# Catalan Numbers
+def catNum(n):
+    return factorial(2*n) / (factorial(n+1) * factorial(n))
