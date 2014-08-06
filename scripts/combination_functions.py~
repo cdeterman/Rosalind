@@ -6,7 +6,7 @@ def nCr(n,r):
 
 # Number of k-length permutations
 def nPr(n,r):
-    return factorial(n)/factorial(n-r)
+	return factorial(n)/factorial(n-r)
 
 # Narayana Numbers
 def narayana(n, k):
