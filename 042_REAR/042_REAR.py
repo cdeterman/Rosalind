@@ -1,77 +1,21 @@
+'''
+My solution to Rosalind Bioinformatics Problem 042
+
+Title: Creating a Distance Matrix
+Rosalind ID: REAR
+Rosalind #: 042
+URL: http://rosalind.info/problems/rear
+
+Goal to return the minimum number of reversals necessary
+to make two permutations equivalent.
+'''
+
 from itertools import groupby
 from collections import OrderedDict
 import numpy as np
 from operator import itemgetter
 import scipy.spatial.distance as ssd
 import os
-
-
-##n = 10
-
-#9 - good
-##s1 = [1,2,3,4,5,6,7,8,9,10]
-##s2 = [3,1,5,2,7,4,9,6,10,8]
-
-#4 - good
-##s1 = [3, 10, 8, 2, 5, 4, 7, 1, 6, 9]
-##s2 = [5, 2, 3, 1, 7, 4, 10, 8, 6, 9]
-
-#5 - good - check
-##s1 = [8,6,7,9,4,1,3,10,2,5]
-##s2 = [8,2,7,6,9,1,5,3,10,4]
-
-#7 - good
-##s1 = [3,9,10,4,1,8,6,7,5,2]
-##s2 = [2,9,8,5,1,7,3,4,6,10]
-
-#0 - good
-##s1 = [1,2,3,4,5,6,7,8,9,10]
-##s2 = [1,2,3,4,5,6,7,8,9,10]
-
-
-# testing
-#6 - good - check
-##s1 = [7,6,5,1,4,10,3,8,2,9]
-##s2 = [5,8,7,6,2,1,3,4,9,10]
-
-#7 - good - check (8 with short version)
-##s1 = [4,8,3,2,7,9,1,5,10,6]
-##s2 = [8,7,6,9,2,10,4,1,5,3]
-
-#6 - good - check
-##s1 = [8,10,1,5,2,4,6,7,9,3]
-##s2 = [7,2,9,6,1,5,10,4,8,3]
-
-#4 - good
-##s1 = [6,1,7,2,10,5,4,3,9,8]
-##s2 = [6,1,3,4,2,10,8,9,5,7]
-
-#9 - good
-##s1 = [10,8,5,1,4,7,9,2,6,3]
-##s2 = [5,10,4,8,9,1,6,7,3,2]
-
-# GRIMM 6 - check (currently at 7)
-'''interesting example whereby a reversal that
-decreases breaks by 1 is better than another
-which decreases 2'''
-##s1=[5,2,3,10,1,4,6,7,9,8]
-##s2=[1,8,2,4,3,6,7,10,5,9]
-
-#GRIMM 5 - good
-##s1=[2,1,8,5,7,4,10,6,9,3]
-##s2=[9,6,5,1,3,2,8,4,10,7]
-
-#GRIMM 6 - good
-##s1=[4,3,8,6,7,9,5,2,1,10]
-##s2=[9,6,5,4,8,7,1,2,3,10]
-
-#GRIMM 6 - good, check (undirected)
-##s1=[5,3,4,1,8,7,6,9,10,2]
-##s2=[2,8,9,5,3,1,6,4,7,10]
-
-#GRIMM 5 - good
-##s1=[9,8,1,2,3,4,5,6,7,10]
-##s2=[1,10,8,5,9,6,7,4,3,2]
 
 
 def startOrder(s1, s2):
