@@ -25,7 +25,7 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 * __Consensus and Profile__
 	* Language: Python, R
 * __Mortal Fibonacci Rabbits__
-	* Language: Python
+	* Language: Python, R
 * __Overlap Graphs__
 	* Language: Python
 * __Calculating Expected Offspring__
