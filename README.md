@@ -21,7 +21,7 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 * __Translating RNA into Protein__
 	* Language: Python, R
 * __Finding a Motif in DNA__
-	* Language: Python
+	* Language: Python, R
 * __Consensus and Profile__
 	* Language: Python
 * __Mortal Fibonacci Rabbits__
