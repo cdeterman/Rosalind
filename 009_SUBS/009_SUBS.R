@@ -9,7 +9,7 @@ URL: http://rosalind.info/problems/subs
 
 library(Biostrings)
 
-file_name <- "C:/Users/cdeterman/Documents/Rosalind/data/rosalind_subs.txt"
+file_name <- file.path(dirname(getwd()), "data", "009_CONS.txt")
 f <- readLines(file_name)
 
 dna <- f[1]

@@ -23,7 +23,7 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 * __Finding a Motif in DNA__
 	* Language: Python, R
 * __Consensus and Profile__
-	* Language: Python
+	* Language: Python, R
 * __Mortal Fibonacci Rabbits__
 	* Language: Python
 * __Overlap Graphs__
