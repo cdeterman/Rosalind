@@ -1,3 +1,12 @@
+'''
+My solution to Rosalind Algorithmic Heights Problem 004
+
+Title: Insertion Sort
+Rosalind ID: INS
+Rosalind #: 004
+URL: http://rosalind.info/problems/ins
+'''
+
 import os
 
 def insertionSortCount(A):
