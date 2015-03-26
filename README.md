@@ -90,7 +90,7 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
     * Language: Python
 
 # Algorithmic Heights
-# Currently Solved: 5
+# Currently Solved: 7
 * __Fibonacci Numbers__
 	* Language: Python
 * __Binary Search__
@@ -102,4 +102,6 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 * __Double-Degree Array__
     * Language: Python
 * __Majority Element__
+    * Language: Python
+* __Merge Two Sorted Arrays__
     * Language: Python
