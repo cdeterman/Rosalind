@@ -99,3 +99,5 @@ These are my current solutions to the Rosalind Problems.  I am very fond of the 
 	* Language: Python
 * __Insertion Sort__
     * Language: Python
+* __Double-Degree Array__
+    * Language: Python
