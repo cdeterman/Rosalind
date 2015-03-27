@@ -91,6 +91,6 @@ if __name__ == '__main__':
     record_dict = SeqIO.to_dict(SeqIO.parse(f, "fasta"))
     f.close()
     
-    outhandle = open("output/026_LONG.txt", 'w')
+    outhandle = open("output/025_LONG.txt", 'w')
     outhandle.write(assemble(record_dict))
     outhandle.close()

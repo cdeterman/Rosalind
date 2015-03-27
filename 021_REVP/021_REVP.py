@@ -18,7 +18,7 @@ f = open("data/rosalind_revp.txt", 'r')
 seq = SeqIO.read(f, "fasta")
 f.close()
 
-outhandle = open("output/022_REVP.txt", 'w')
+outhandle = open("output/021_REVP.txt", 'w')
 for start in xrange(len(seq)):
     for end in xrange(len(seq), start, -1): # iterate through all combinations of subsequences
         if end - start < 4: # try to save some time with lower length sequences

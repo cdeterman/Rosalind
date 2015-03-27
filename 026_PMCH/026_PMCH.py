@@ -35,6 +35,6 @@ counts = Counter(seq)
 pn = factorial(counts["A"])*factorial(counts["C"])
 
 
-o = open("output/027_PMCH.txt", 'w')
+o = open("output/026_PMCH.txt", 'w')
 print >> o, pn
 o.close()

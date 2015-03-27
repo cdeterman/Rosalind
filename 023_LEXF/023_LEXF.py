@@ -21,7 +21,7 @@ f.close()
     Also sorting is unneccessary because the inner product
     produces the order of the sequence provided
 '''
-outhandle = open("output/024_LEXF.txt", 'w')
+outhandle = open("output/023_LEXF.txt", 'w')
 for perm in product(alphabet, repeat=n): #note, repeat must be specifically stated
     print >> outhandle, "".join(perm)
 outhandle.close()

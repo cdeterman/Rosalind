@@ -17,6 +17,7 @@ other ideas but at the moment here is a very solid answer only slightly modified
 from other very talented programmers.
 '''
 
+import os
 from math import ceil
 
 # Binary search to decrease time and computation
@@ -59,9 +60,16 @@ def LongestIncSubstring(data):
 
 if __name__ == '__main__':
 
-    f = open('data/rosalind_lgis.txt')
-    f.next()
-    perm = map(int, f.readline().rstrip().split())
+    f =  open(
+        os.path.join(
+            os.path.split(
+                os.getcwd())[0],
+            "data", "rosalind_lgis.txt"),
+        'r')
+    
+    data = [map(int, line.rstrip().split()) for line in f.readlines()]
+    n = data.pop(0)
+    perm = data.pop(0)
     f.close()
 
     LIS = map(str, LongestIncSubstring(perm))
@@ -71,7 +79,12 @@ if __name__ == '__main__':
     negperm = [-1*i for i in perm]
     LDS = map(str, [-1*i for i in LongestIncSubstring(negperm)])
 
-    outhandle = open('output/024_LGIS.txt', 'w')
+    outputhandle = open(
+        os.path.join(
+            os.path.split(
+                os.getcwd())[0],
+            "output", "024_LGIS.txt"),
+        'w')
     outputhandle.write(' '.join(LIS) + '\n')
     outputhandle.write(' '.join(LDS))
-    outhandle.close()
+    outputhandle.close()

@@ -31,7 +31,7 @@ for intron in introns:
     if intron in dna: # if intron present, remove from dna string
         dna = dna.replace(intron, "")
 
-o = open("output/023_SPLC.txt", 'w')
+o = open("output/022_SPLC.txt", 'w')
 # convert to Seq object and translate to protein
 print >> o, Seq(dna).translate(to_stop=True)
 o.close()
